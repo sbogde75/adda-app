@@ -71,7 +71,7 @@ export default function Album() {
         <Toolbar>
           <CameraIcon className={classes.icon} />
           <Typography variant='h6' color='inherit' noWrap>
-            Album layout
+            AddaApp
           </Typography>
         </Toolbar>
       </AppBar>
@@ -86,7 +86,7 @@ export default function Album() {
               color='textPrimary'
               gutterBottom
             >
-              Album layout
+              Adda's App
             </Typography>
             <Typography
               variant='h5'
@@ -114,11 +114,11 @@ export default function Album() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='md'>
+        <Container className={classes.cardGrid} maxWidth='lg'>
           {/* End hero unit */}
           <Grid container spacing={4}>
             {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
+              <Grid item key={card} xs={12} sm={6} md={4} lg={3}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
