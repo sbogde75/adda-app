@@ -1,5 +1,6 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
+import BrushIcon from '@material-ui/icons/Brush';
 import Button from '@material-ui/core/Button';
 import CameraIcon from '@material-ui/icons/PhotoCamera';
 // import Card from '@material-ui/core/Card';
@@ -21,8 +22,8 @@ function Copyright() {
   return (
     <Typography variant='body2' color='textSecondary' align='center'>
       {'Copyright © '}
-      <Link color='inherit' href='https://material-ui.com/'>
-        Your Website
+      <Link color='inherit' href='http://picturi.eu/'>
+        Andreea Bogde
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -40,7 +41,7 @@ export default function Album() {
       <CssBaseline />
       <AppBar position='relative'>
         <Toolbar>
-          <CameraIcon className={classes.icon} />
+          <BrushIcon className={classes.icon} />
           <Typography variant='h6' color='inherit' noWrap>
             AddaApp
           </Typography>
