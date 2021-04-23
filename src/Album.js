@@ -1,8 +1,8 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import BrushIcon from '@material-ui/icons/Brush';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
+import BrushIcon from '@material-ui/icons/Brush';
+// import CameraIcon from '@material-ui/icons/PhotoCamera';
 // import Card from '@material-ui/core/Card';
 // import CardActions from '@material-ui/core/CardActions';
 // import CardContent from '@material-ui/core/CardContent';
@@ -22,8 +22,8 @@ function Copyright() {
   return (
     <Typography variant='body2' color='textSecondary' align='center'>
       {'Copyright © '}
-      <Link color='inherit' href='http://picturi.eu/'>
-        Andreea Bogde
+      <Link color='inherit' href='http://picturi.eu'>
+        Andreea
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
