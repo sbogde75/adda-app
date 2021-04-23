@@ -17,6 +17,7 @@ import Link from '@material-ui/core/Link';
 
 import MyCard from './components/MyCard';
 import useStyles from './css/useStyles';
+import AppMenu from './AppMenu';
 
 function Copyright() {
   return (
@@ -39,14 +40,15 @@ export default function Album() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position='relative'>
+      {/* <AppBar position='relative'>
         <Toolbar>
           <BrushIcon className={classes.icon} />
           <Typography variant='h6' color='inherit' noWrap>
             AddaApp
           </Typography>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
+      <AppMenu />
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
