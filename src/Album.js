@@ -17,7 +17,7 @@ import Link from '@material-ui/core/Link';
 
 import MyCard from './components/MyCard';
 import useStyles from './css/useStyles';
-import AppMenu from './components/AppMenu';
+import AppMenu from './components/menu/AppMenu';
 
 function Copyright() {
   return (
