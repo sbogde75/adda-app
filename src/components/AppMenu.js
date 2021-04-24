@@ -14,7 +14,8 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
-
+// import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import IconMenu from './IconMenu';
 
 const useStyles = makeStyles((theme) => ({
@@ -117,7 +118,8 @@ export default function AppMenu() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
+      <MenuItem onClick={handleMenuClose}>Log in</MenuItem>
+      <MenuItem onClick={handleMenuClose}>Log out</MenuItem>
       <MenuItem onClick={handleMenuClose}>My account</MenuItem>
     </Menu>
   );
@@ -188,14 +190,14 @@ export default function AppMenu() {
           <div className={classes.sectionDesktop}>
             <IconButton aria-label='show 4 new mails' color='inherit'>
               <Badge badgeContent={4} color='secondary'>
-                <MailIcon />
+                <FavoriteIcon />
               </Badge>
             </IconButton>
-            <IconButton aria-label='show 17 new notifications' color='inherit'>
+            {/* <IconButton aria-label='show 17 new notifications' color='inherit'>
               <Badge badgeContent={17} color='secondary'>
                 <NotificationsIcon />
               </Badge>
-            </IconButton>
+            </IconButton> */}
             <IconButton
               edge='end'
               aria-label='account of current user'
