@@ -171,7 +171,7 @@ export default function AppMenu() {
         <Toolbar>
           <IconMenu />
           <Typography className={classes.title} variant='h6' noWrap>
-            AddaApp
+            AddaAppTest
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>

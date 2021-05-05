@@ -5,7 +5,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 // import RestoreIcon from '@material-ui/icons/Restore';
 // import FavoriteIcon from '@material-ui/icons/Favorite';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-// import LocationOnIcon from '@material-ui/icons/LocationOn';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 // import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 // import TrendingFlatIcon from '@material-ui/icons/TrendingFlat';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
@@ -36,7 +36,7 @@ export default function Like() {
       />
       <BottomNavigationAction label='Favorites' icon={<FavoriteBorderIcon />} />
       <BottomNavigationAction label='Details' icon={<ArrowForwardIosIcon />} />
-      {/* <BottomNavigationAction label={value} icon={<LocationOnIcon />} /> */}
+      <BottomNavigationAction label={value} icon={<LocationOnIcon />} />
     </BottomNavigation>
   );
 }
